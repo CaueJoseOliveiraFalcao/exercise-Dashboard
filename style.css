@@ -1,0 +1,35 @@
+main{
+    background-color: hsl(27, 66%, 92%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preco-div{
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+    width: 35rem;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 0;
+}
+.preco-div div p {
+    margin-bottom: 5px;
+}
+.grafico-div{
+    margin-top: 1rem;
+    background-color: hsl(33, 100%, 98%);
+    width: 35rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+@media (max-width:426px) {
+    .preco-div{
+        width: 100%;
+    }
+    .grafico-div{
+        width: 100%;
+    }
+}
